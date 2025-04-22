@@ -23,7 +23,7 @@ public class DemoApplication {
         props.put("hibernate.hbm2ddl.auto", "update");
 
         return new LocalSessionFactoryBuilder(dataSource)
-                .scanPackages("com.example.demo.model")
+                .scanPackages("com.example.homeWork.model")
                 .addProperties(props)
                 .buildSessionFactory();
     }
